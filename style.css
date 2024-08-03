@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #000000;
+  background-color: #040F16;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +16,9 @@ body {
 
 .cantainer {
   padding: 25px;
-  background-color: #e9ecef;
+  background-color: lightblue;
+  /* box-shadow: 10px 1px 50px red; */
+  box-shadow: 10px 15px 40px 5px red;
   box-shadow: ;
   text-align: center;
   width: 400px;
@@ -52,12 +54,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  color: white;
+  background-color: lightblue;
 }
 
 #add {
   color: blue;
-  /* text-shadow: 1px 1px 2px blue, 0 0 1em blue, 0 0 0.2em blue; */
   text-shadow: 2px 1px 5px blue, 0 0 2em blue, 0 0 0.5em blue;
   font-size: 40px;
 }
